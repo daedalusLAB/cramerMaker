@@ -12,7 +12,7 @@ parser$add_argument('-f', '--data.input', type='character', help='folders where 
 parser$add_argument('-s', '--path.save', type='character', help='save here')
 parser$add_argument('-p','--parquet', action='store_true', help='generate parquet file')
 parser$add_argument('-a','--all.in.file', action='store_false', help='all data in one file')
-parser$add_argument('--csv', action='store_true', help='Write csv file')
+parser$add_argument('-c','--csv', action='store_true', help='Write csv file')
 
 
 # Parsear los argumentos
