@@ -29,7 +29,7 @@ Rscript cramerMaker.R [OPTIONS]
 Ensure that the `data.input` is not the folder of a single video but where all the videos to be processed are stored.
 
 
-| :warning: Wrong                                                                                                                                       |
+| :warning:  $${\color{Red}Wrong}$$                                                                                                                                       |
 |:-----------------------------------------------------------------------|
 |   - <span style="color:red">`2006-01-14_0600_US_KTTV-FOX_Ten_OClock_News_273-275_ID202_back_then/`</span> \
   ├── 2006-01-14_0600_US_KTTV-FOX_Ten_OClock_News_273-275_ID202_back_then_000000000000_keypoints.json 
@@ -40,11 +40,12 @@ Ensure that the `data.input` is not the folder of a single video but where all t
 
 
 
-`Correct`
+- $${\color{Green}Correct}$$
 
-- $${\color{Green}exampleVideos}$$
 
+exampleVideos/ \
 ├── 2006-01-14_0600_US_KTTV-FOX_Ten_OClock_News_273-275_ID202_back_then/ \
+  ├── 2006-01-14_0600_US_KTTV-FOX_Ten_OClock_News_273-275_ID202_back_then_000000000000_keypoints.json
 ├── 2008-04-15_0600_US_KCET_Tavis_Smiley_239-242_far_in_the_future/ \
 ├── 2014-10-10_0600_US_KCAL_Entertainment_Tonight_374-380_ID933_from_beginning_to_end/ \
 └── 2015-03-26_2100_US_WEWS_Live_on_5_1221-1225_ID509_later_than/
