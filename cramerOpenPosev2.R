@@ -122,12 +122,12 @@ return( df )
   
 }
 
-df<-read.csv("/home/agora/daedalusDataBank/openPoseData/rawData/tonight/2016-01-01_0735_US_KCBS_Late_Show_with_Stephen_Colbert_1733.53-1737.98_tonight.csv")
+df<-read.csv("/PATH/TO/tonight/2016-01-01_0735_US_KCBS_Late_Show_with_Stephen_Colbert_1733.53-1737.98_tonight.csv")
 
 
 new_df<-cramerOpenPosev2(df = df, set.NAs = TRUE,save.parquet = FALSE,path.to.save = "data/",save.by.video = TRUE,save.csv = FALSE)
 
 
-save(cramerOpenPosev2,file = "/home/agora/functions/cramerOpenPoseV2.rda")
+save(cramerOpenPosev2,file = "/PATH/TO/SAVE/cramerOpenPoseV2.rda")
 
-load(file = "/home/agora/functions/cramerOpenPoseV2.rda")
+load(file = "/PATH/TO/LOAD/cramerOpenPoseV2.rda")
