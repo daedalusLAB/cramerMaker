@@ -24,7 +24,7 @@ Rscript cramerMaker.R [OPTIONS]
 - `-c`, `--csv`: Flag to save the output as a CSV file.
 - `-a`, `--all.in.file`: Flag to specify if all data should be saved in one file.
 
-## Warning
+## Warnings
 
 Ensure that the `data.input` is not the folder of a single video but where all the videos to be processed are stored.
 
@@ -40,7 +40,10 @@ Ensure that the `data.input` is not the folder of a single video but where all t
     _back_then_000000000002_keypoints.json \
 
 
-
+| :warning: Save it or Save it   
+|
+|:-----------------------------------------------------------------------|
+|The `-s` flag is mandatory because the function is a parsed R function.  If you want to see the output without saving, the best option is to use an IDE such as RStudio to work directly on the statistical aspects.|
 
 
 - $${\color{Green}Correct}$$
@@ -56,17 +59,18 @@ exampleVideos/ \
 
 ## Examples
 
-To process files from a specified folder and save them in a different directory:
 
 ```bash
-Rscript cramerMaker.R -f ./input_folder/ -s ./output/
+
+Rscript cramerMaker.R -f ./exampleVideos/  -s ./example_output -c -p
+ 
 ```
 
 To process files and save them as a Parquet file:
 
 ```bash
 Rscript cramerMaker.R -f ./input_folder/ -s ./output/ -p
-```
+
 
 To process files and save them as a CSV file:
 
