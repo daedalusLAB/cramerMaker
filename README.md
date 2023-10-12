@@ -41,7 +41,7 @@ Ensure that the `data.input` is not the folder of a single video but where all t
 
 
 | :warning: Save it or Save it   
-|
+
 |:-----------------------------------------------------------------------|
 |The `-s` flag is mandatory because the function is a parsed R function.  If you want to see the output without saving, the best option is to use an IDE such as RStudio to work directly on the statistical aspects.|
 
