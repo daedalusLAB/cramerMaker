@@ -40,13 +40,10 @@ Ensure that the `data.input` is not the folder of a single video but where all t
     _back_then_000000000002_keypoints.json \
 
 
-| :warning: Save it or Save it   
-
-|:-----------------------------------------------------------------------|
-|The `-s` flag is mandatory because the function is a parsed R function.  If you want to see the output without saving, the best option is to use an IDE such as RStudio to work directly on the statistical aspects.|
 
 
-- $${\color{Green}Correct}$$
+
+ $${\color{Green}Correct}$$
 
 exampleVideos/ \
 ├── 2006-01-14_0600_US_KTTV-FOX_Ten_OClock_News_273-275_ID202_back_then/ \
@@ -56,6 +53,11 @@ exampleVideos/ \
 └── 2015-03-26_2100_US_WEWS_Live_on_5_1221-1225_ID509_later_than/ \
 
 - **`exampleVideos`**: This is your input directory containing all the videos to be processed.
+
+
+> **Warning**
+> The `-s` flag is mandatory because the function is a parsed R function.  If you want to see the output without saving, the best option is to use an IDE such as RStudio to work directly on the statistical aspects.
+
 
 ## Examples
 
